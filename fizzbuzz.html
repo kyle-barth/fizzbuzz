@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>fizzbuzz</h1>
+    <script>
+      for (var i = 1; i < 25; i++) {
+        var x = '';
+        if (i % 3 == 0) x += 'Fizz';
+        if (i % 5 == 0) x += 'Buzz';
+        if (!x) x = i;
+        document.write(x + ', ');
+      }
+    </script>
+    <pre>
+      <code>
+      for (var i = 1; i < 25; i++) {
+        var x = '';
+        if (i % 3 == 0) x += 'Fizz';
+        if (i % 5 == 0) x += 'Buzz';
+        if (!x) x = i;
+        document.write(x + ', ');
+      }</code>
+    </pre>
+    <p>GitHub.com/kyle-barth</p>
+  </body>
+</html>
